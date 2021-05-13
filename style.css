@@ -1,0 +1,114 @@
+h1{
+  font-family: abril fatface;
+  Font-color: #222;
+  font-size: 100px;
+  background-image: url(https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png);
+  background-position: 20% 0%;
+  background-repeat: no-repeat;
+   max-height: 600px;
+  max-width: 1800px;
+  
+  vertical-align: middle;
+  padding-top: 500px;
+  padding-bottom: 100px;
+  padding-left: 300px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  
+ }
+h1::first-line{
+  font-size: 70px;
+ 
+}
+body{
+  max-width: 1800px;
+  margin-top: 0px;
+  display: block;
+  }
+
+h2{
+  font-family: josefin sans;
+  Font-color: #222;
+  Font-variant: small-caps;
+  font-size: 28px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+section{
+  font-family: josefin sans;
+  Font-color: #222;
+  font-size: 25px;
+ margin-left: 300px;
+  margin-right: 300px;
+  }
+
+h3{
+  font-family: josefin sans;
+  Font-color: #222;
+  Font-weight: bold;
+  margin-bottom: 0px;
+  font-size: 22px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+h4{
+  font-family: Merriweather;
+  Font-size: 15px;
+  font-style: italic;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+p{
+  font-family: josefin sans;
+  font-color: #222;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+li{
+  font-family: josefin sans; 
+  font-color: #222;
+  font-size: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+ul{
+  list-style-type: square;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+blockquote{
+  font-family: abril fatface;
+  color: white;
+  font-size: 80px;
+  background: black;
+  height: auto;
+  width: 1400px;
+  padding-top: 0px;
+  display: block;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+blockquote::before{
+  content:'"';
+  font-size: 150px;
+  font-family: passion one;
+  padding-left: 10px;
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-bottom:20px;
+  text-align: top-left;
+ 
+ }
+div{
+  border-top: 3px solid black;
+  margin-left: 300px;
+  margin-right: 300px;
+}
